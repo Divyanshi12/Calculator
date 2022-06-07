@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Basic Calculator</h1>
+    <br />
+    <form id = "myform">
+    <input type="text" id="txt" value="" /><br />
+    <input
+      type="button"
+      value="1"
+      onclick='document.getElementById("txt").value+="1"'
+    />
+    <input
+      type="button"
+      value="2"
+      onclick='document.getElementById("txt").value+="2"'
+    />
+    <input
+      type="button"
+      value="3"
+      onclick='document.getElementById("txt").value+="3"'
+    />
+    <input
+      type="button"
+      style="background-color: orange;"
+      value="+"
+      onclick='document.getElementById("txt").value+="+"'
+    /><br />
+    <input
+      type="button"
+      value="4"
+      onclick='document.getElementById("txt").value+="4"'
+    />
+    <input
+      type="button"
+      value="5"
+      onclick='document.getElementById("txt").value+="5"'
+    />
+    <input
+      type="button"
+      value="6"
+      onclick='document.getElementById("txt").value+="6"'
+    />
+    <input
+      type="button"
+      style="background-color: purple;"
+      value="-"
+      onclick='document.getElementById("txt").value+="-"'
+    /><br />
+    <input
+      type="button"
+      value="7"
+      onclick='document.getElementById("txt").value+="7"'
+    />
+    <input
+      type="button"
+      value="8"
+      onclick='document.getElementById("txt").value+="8"'
+    />
+    <input
+      type="button"
+      value="9"
+      onclick='document.getElementById("txt").value+="9"'
+    />
+    <input
+      type="button"
+      value="/"
+      style="background-color: yellowgreen;"
+      onclick='document.getElementById("txt").value+="/"'
+    /><br />
+    <input
+      type="button"
+      value="0"
+      onclick='document.getElementById("txt").value+="0"'
+    />
+    <input
+      type="button"
+      value="*"
+      style="background-color: brown;"
+      onclick='document.getElementById("txt").value+="*"'
+    />
+    <input
+      type="button"
+      value="="
+      style="background-color: green;"
+      onclick='document.getElementById("txt").value = eval (document.getElementById("txt").value)'
+    />
+    <input
+      type="button"
+      value="C"
+      style="background-color: red;"
+      onclick='document.getElementById("txt").value=""'
+    />
+    
+
+  </body>
+
+  <script type="text"></script>
+</html>
